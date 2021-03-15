@@ -16,6 +16,7 @@ public class Assignment2 {
 		createUser();
 		modifyUser();
 		deleteUser();
+		
 		closeBrowser();
 	}
 	public static void launchbrowser()
@@ -58,7 +59,7 @@ public class Assignment2 {
 	{
 		try
 		{
-			oBrowser.findElement(By.id("gettingStartedShortcutsMenuCloseId")).click();;
+			oBrowser.findElement(By.id("gettingStartedShortcutsMenuCloseId")).click();
 		}catch(Exception e)
 		{
 			e.printStackTrace();
