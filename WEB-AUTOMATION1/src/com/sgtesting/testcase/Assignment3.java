@@ -10,7 +10,7 @@ public class Assignment3 {
 	public static void main(String[] args) {
 	
 		launchbrowser();
-		navigate();
+		navigateto();
 		login();
 		FlyOutWindow();
 		CreateCustomer();
@@ -19,6 +19,7 @@ public class Assignment3 {
 		closeBrowser();
 
 	}
+	
 	public static void launchbrowser()
 	{
 		try
@@ -32,7 +33,7 @@ public class Assignment3 {
 			e.printStackTrace();
 		}
 	}
-	public static void navigate()
+	public static void navigateto()
 	{
 		try
 		{
